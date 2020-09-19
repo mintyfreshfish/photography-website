@@ -1,0 +1,135 @@
+/* black: #070605
+   light tan: #ca9261
+   rust: #945226
+   brown: #61402a
+   sea gray: 9ca7a1
+   white: #dedede
+   blue: #68a2b9
+*/
+
+.bkBlack {
+    background-color: #070605;
+}
+
+.bkTan {
+    background-color: #ca9261;
+}
+
+.bkRust {
+    background-color: #945226;
+}
+
+.bkBrown {
+    background-color: #61402a;
+}
+
+.bkGray {
+    background-color: #9ca7a1;
+}
+
+.bkWhite {
+    background-color: #dedede;
+}
+
+.bkBlue {
+    background-color: #68a2b9;
+}
+
+.plainText {
+    font-family: 'Poppins', sans-serif;
+    color: #dedede;
+    padding: 5%;
+    text-align: center;
+}
+
+.headerText {
+    font-family: 'Roboto Slab', serif;
+    color: #945226;
+    padding-top: 10%;
+    padding-bottom: 10%
+}
+
+.centered {
+    text-align: center;
+}
+
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    padding: 2em;
+    color: #9ca7a1;
+}
+
+a:link {
+    color: #dedede;
+}
+
+a:hover {
+    color: #9ca7a1;
+}
+
+a:visited {
+    color: #dedede
+}
+
+a:active {
+    color: #dedede
+}
+
+.secondHeader {
+    font-family: 'Roboto Slab', serif;
+    color: #ca9261;
+    font-size: 24px;
+}
+
+/* Image Grid */
+/* Box-sizing reset: //w3bits.com/?p=3225 */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /* The Masonry Container */
+  .masonry {
+    margin: 1.5em auto;
+    max-width: 768px;
+    column-gap: 1.5em;
+  }
+  
+  /* The Masonry Brick */
+  .item {
+    background: #fff;
+    padding: 1em;
+    margin: 0 0 1.5em;
+  }
+  
+  /* Masonry on large screens */
+  @media only screen and (min-width: 1024px) {
+    .masonry {
+      column-count: 4;
+    }
+  }
+  
+  /* Masonry on medium-sized screens */
+  @media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .masonry {
+      column-count: 3;
+    }
+  }
+  
+  /* Masonry on small screens */
+  @media only screen and (max-width: 767px) and (min-width: 540px) {
+    .masonry {
+      column-count: 2;
+    }
+  }
